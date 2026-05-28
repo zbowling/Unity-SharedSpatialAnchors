@@ -27,7 +27,7 @@
 .vsconfig
 
 # Visual Studio Code
-.vscode/
+.vscode/*
 
 # Rider cache
 .idea/
@@ -83,3 +83,7 @@ Builds
 
 # From com.unity.performance.profile-analyzer
 ProfileAnalyzer/
+
+# Meta Quest agentic tooling: keep VS Code/Cursor workspace recommendations
+!.vscode/extensions.json
+!.vscode/mcp.json
